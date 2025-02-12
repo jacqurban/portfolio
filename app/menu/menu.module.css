@@ -1,0 +1,58 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px;
+  padding: 10px; /*   - 10px → arriba/abajo - 20px → izquierda/derecha*/
+  flex-direction: row;
+  background-color: #000; /* Fondo negro para resaltar el efecto */
+  text-align: center;
+  z-index: 1000;
+}
+
+.nombre{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.a {
+  color: #ff4da6; /* Color inicial rosa */
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 15px;
+  text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 20px #ff4da6;
+  transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.a:hover {
+  color: #39FF14; /* Verde neón */
+  text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14; /* Efecto de resplandor */
+}
+
+.foto{
+  border-radius: 50%;
+  max-width: 60px;
+  max-height: 60px;
+
+}
+
+.seccionDerecha{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-right: 20px;
+
+}
+
+.seccionIzquierda{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
