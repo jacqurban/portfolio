@@ -4,8 +4,11 @@ import Image from 'next/image';
 const Menu = () => {
   return <div className={styles.menu}>
 
+
+
       <div className={styles.seccionIzquierda}>
-        
+
+        <Image className={styles.foto} src="/foto.jpg" alt="foto" width={60} height={60} />
         <p className={styles.nombre}>JACQUELINE URBAN</p>
         
       </div>

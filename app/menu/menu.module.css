@@ -51,8 +51,10 @@
 }
 
 .seccionIzquierda{
+  align-items: center;
   display: flex;
+  margin-left: 20px;
   flex-direction: row;
-  gap: 10px;
+  gap: 30px;
 }
 
