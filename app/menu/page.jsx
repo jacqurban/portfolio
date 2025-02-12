@@ -6,9 +6,15 @@ const Menu = () => {
 
 
 
+
       <div className={styles.seccionIzquierda}>
 
-        <Image className={styles.foto} src="/foto.jpg" alt="foto" width={60} height={60} />
+        <Image 
+        className={styles.foto} 
+        src="/foto.jpg" alt="foto" 
+        width={60} 
+        height={60} />
+
         <p className={styles.nombre}>JACQUELINE URBAN</p>
         
       </div>

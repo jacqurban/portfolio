@@ -1,15 +1,27 @@
 @import "./globals.css";
 
 
+.videoBackground {
+  position: fixed; /* Fijamos el video en su lugar para que no se desplace con el contenido */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* El video cubrirá toda la pantalla */
+  z-index: -1; /* Aseguramos que el video quede en el fondo */
+}
+
 .container {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 1200px;
-  margin: 60px auto; /* Elimina el margen izquierdo y derecho, centrando el contenedor */
+  margin: 0 auto; /* Centra el contenedor */
   padding: 20px;
   padding-top: 60px;
   background-color: #ffffff;
+  z-index: 1; /* Asegura que el contenido esté sobre el video */
+  position: relative;
 }
 
 
