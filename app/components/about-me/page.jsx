@@ -1,3 +1,4 @@
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import styles from "./aboutMe.module.css";
 import Image from 'next/image';
 
@@ -7,10 +8,27 @@ const AboutMe = () => {
     <section className={styles.seccionAboutMe}>
       <a id= "aboutMe" ></a>
       <span className={styles.presentacion}>Hola Soy Jacqueline</span>
-      <span className={styles.textPrentacion}>Técnica Universitaria en Tecnologías de Programación y QA Analyst con más de 4 años de experiencia en aseguramiento de
-        la calidad. Manejo herramientas como Jira y Postman, además de automatizaciones con Cypress y Playwright. Trabajo
+      <span className={styles.textPrentacion}>Técnica Universitaria en Tecnologías de Programación  Trabajo
         cómodamente en inglés, colaborando con equipos interdisciplinarios y multiculturales para garantizar productos de alta
         calidad.</span>
+      <div className={styles.redesSociales}>
+        <a
+          href="https://www.linkedin.com/in/jacqueline-urban/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.icono}
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/jacqurban"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.icono}
+        >
+          <FaGithub />
+        </a>
+      </div>
     </section>  
 
     
