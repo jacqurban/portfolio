@@ -1,0 +1,40 @@
+.card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 350px;
+    width: 250px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.8);
+
+
+  }
+  
+  .card h3 {
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    color: #ccc;
+  }
+  
+  .iconos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .icono {
+    font-size: 30px;
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .icono:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+  

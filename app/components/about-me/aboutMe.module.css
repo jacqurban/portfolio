@@ -1,14 +1,10 @@
-.aboutMe{
+.seccionAboutMe{
     scroll-margin-top: 200px;
     min-height: 100vh;
-}
-
-.seccionAboutMe{
-
     display: flex;
     flex-direction: column;
     scroll-margin-top: 200px;
-    min-height: 100vh;
+    min-height: 80vh;
     
     }
 
@@ -49,7 +45,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .icono {
@@ -60,5 +56,6 @@
 
 .icono:hover {
     transform: scale(1.2);
-    color: #1db954; /* Verde de Spotify, puedes cambiarlo */
+    color: #1db954; 
+   
 }

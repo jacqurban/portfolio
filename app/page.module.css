@@ -19,9 +19,11 @@
   margin: 0 auto; /* Centra el contenedor */
   padding: 20px;
   padding-top: 60px;
-  background-color: #ffffff;
+  background-color: #000;
   z-index: 1; /* Asegura que el contenido esté sobre el video */
   position: relative;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
 }
 
 

@@ -3,7 +3,7 @@ import styles from "./aboutMe.module.css";
 import Image from 'next/image';
 
 const AboutMe = () => {
-  return <div className={styles.aboutMe}>
+  return <>
 
     <section className={styles.seccionAboutMe}>
       <a id= "aboutMe" ></a>
@@ -32,7 +32,7 @@ const AboutMe = () => {
     </section>  
 
     
-  </div>;
+  </>;
 };
 
 export default AboutMe;
