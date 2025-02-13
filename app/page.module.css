@@ -25,25 +25,4 @@
 }
 
 
-.seccionAboutMe{
-  
-  
-  background-color: rgb(255, 0, 170);
-  scroll-margin-top: 200px;
-  min-height: 100vh;
-  }
 
-.seccionProyectos{
-  
-    background-color: blue;
-    scroll-margin-top: 200px;
-    min-height: 100vh;
-
-}
-
-.seccionContacto{
-  
-    background-color: green;
-    scroll-margin-top: 200px;
-    min-height: 100vh;
-}

@@ -1,0 +1,17 @@
+import styles from "./proyects.module.css";
+import Image from 'next/image';
+
+const Proyects = () => {
+  return <div className={styles.proyects}>
+
+    <div className={styles.seccionProyectos}>  
+    <a id = "projects"></a> 
+    <h1>Proyectos</h1>
+    similique, velit, asperiores ex vero aliquam. Autem rerum, placeat, similique impedit neque soluta voluptas amet libero molestiae temporibus incidunt sunt illum facilis in eum voluptatum fugiat! Commodi expedita cumque voluptates ratione repellendus libero minima dolor ut veritatis similique nemo eveniet maxime aliquam sunt neque, saepe consequatur, perspiciatis odio suscipit provident repudiandae? Laborum accusantium corrupti, nemo dicta ipsa tenetur ratione? Quasi molestias voluptas illum iusto dolorem cum alias deleniti! Dolorum id magnam suscipit? Omnis iste deserunt recusandae deleniti dolore quia blanditiis corrupti alias vel ea dignissimos facilis quo, sit corporis, quibusdam debitis vero, magnam magni ipsum expedita velit aliquid nisi quos. Aperiam quisquam non eum magnam quod, adipisci dignissimos, aliquid consectetur cupiditate repudiandae debitis fuga ex! Voluptate, modi impedit expedita eius error a deleniti, est consequatur alias non pariatur. Necessitatibus architecto voluptate magnam, sed doloremque sint adipisci natus dicta eveniet, quae voluptatum incidunt corrupti, vel cupiditate dolores molestiae facilis voluptatibus excepturi distinctio id ullam voluptas libero. Blanditiis laboriosam dolores ipsum doloribus iusto nisi autem iste eum vel velit labore eveniet ea ipsa quae corrupti, molestiae ut fuga, rem dicta. Illo illum, quis dicta quas officia voluptas repellat at tempora dolorem quibusdam nisi cumque odio quisquam minus recusandae architecto adipisci quae similique, obcaecati pariatur exercitationem. Quibusdam molestiae ipsam rem nemo eaque corrupti porro temporibus delectus, enim voluptas commodi facilis cupiditate itaque vero, architecto illo excepturi alias incidunt laudantium et debitis laborum modi accusantium. Natus illum consequuntur iusto. Eligendi quae sunt molestiae dolorem praesentium ut possimus nulla atque, enim corrupti iste, optio veniam ullam? Fugit pariatur quos unde dolorem iusto laboriosam exercitationem doloremque. Iste, eligendi nisi! Sint praesentium voluptas consequuntur, corrupti corporis amet quos repellat, adipisci quia, hic esse. Impedit, modi sunt nulla minus est eum sequi eius inventore placeat repellat officia dolorem commodi, dolore odit beatae, magni iste. Veritatis possimus maiores porro minima unde error molestias libero eius, expedita dolores laborum itaque quisquam magni aut accusamus ipsa. Quod odio eum ipsa impedit, est qui dolor nulla repudiandae aliquid veniam esse repellendus quasi mollitia eius aliquam accusamus architecto ab, ullam, enim facere deleniti amet corporis! Soluta labore sit facilis voluptatibus amet obcaecati ad qui, maiores rem dolores ea quaerat harum. Laborum est id atque dolor mollitia soluta accusantium esse! Dolore blanditiis dolor minima laborum odit, nostrum molestias enim libero ex inventore ullam fuga dicta ad aspernatur consequatur voluptate exercitationem sint fugiat corporis! Libero culpa accusamus doloremque debitis dignissimos? In repudiandae quo, cupiditate fugit earum, adipisci, ut reprehenderit quod dolor illo necessitatibus asperiores beatae. Odio, atque qui unde earum quidem ex, et, cupiditate voluptatem a quis est.
+    </div>
+
+    
+  </div>;
+};
+
+export default Proyects;
