@@ -10,8 +10,7 @@ const Proyects = () => {
 
       <div className={styles.textoSuperior}>
       <span className={styles.titulo}>Proyectos</span>
-      <p>texto explicativo</p>
-        
+      <p>He trabajado en el desarrollo y automatización de proyectos como un sistema para un refugio de animales, un scraper para análisis de precios inmobiliarios y una herramienta de notificación para la compra de entradas a recitales</p>        
       </div> 
 
       <div className={styles.contenedorCards}>

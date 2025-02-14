@@ -1,5 +1,5 @@
 import styles from "./skills.module.css";
-import Card from "./cards/cards";
+import Card from "./cards/cards.js";
 import Image from 'next/image';
 import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaPython } from "react-icons/fa";
 import { SiPandas,SiPython, SiJavascript, SiMysql, SiNextdotjs, SiFlask, SiMongodb, SiCypress, SiMicrosoft, SiPostman, SiGit, SiFigma, SiJira, SiTrello } from "react-icons/si";
@@ -11,8 +11,8 @@ const Skills = () => {
       <a id="contact"></a> 
 
       <div className={styles.textoSuperior}>
-        <span className={styles.titulo}>Proyectos</span>
-        <p>texto boludo explicar alguna cosa</p>
+        <span className={styles.titulo}>Skills</span>
+        <p>A medida que avanzo en mi carrera como desarrolladora, he adquirido experiencia en diversas tecnologías que me permiten enfrentar proyectos desafiantes. Estas son algunas de las herramientas y lenguajes con los que estoy trabajando actualmente:</p>
       </div> 
 
       <div className={styles.contenedorCards}>

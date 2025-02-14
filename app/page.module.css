@@ -22,12 +22,14 @@
   scroll-behavior: smooth;
   scroll-padding-top: 90px;
 }
-.globalBody {
+.body {
   background-color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
-.globalHtml {
+.html {
   scroll-behavior: smooth;
   background-color: #000;
   scroll-padding-top: 90px;
