@@ -1,8 +1,47 @@
-
-
-.seccionContacto{
-  
-    background-color: green;
+.seccionSkills {
     scroll-margin-top: 200px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.textoSuperior {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.textoSuperior p {
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.5);
+    text-shadow:
+        0px 0px 5px rgba(0, 0, 0, 0.9),
+        0px 0px 15px rgba(0, 0, 0, 0.7),
+        0px 0px 25px rgba(0, 0, 0, 0.5);
+}
+
+.contenedorCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    max-width: 800px; /* Ajustá según necesites */
+}
+

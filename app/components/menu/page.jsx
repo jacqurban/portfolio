@@ -11,7 +11,7 @@ const Menu = () => {
 
         <Image 
         className={styles.foto} 
-        src="/foto.jpg" alt="foto" 
+        src="/foto.png" alt="foto" 
         width={60} 
         height={60} />
 
