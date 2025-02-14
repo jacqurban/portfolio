@@ -1,16 +1,21 @@
 import styles from "./cards.module.css";
-import { FaReact, FaJs, FaHtml5, FaCss3Alt } from "react-icons/fa";
 
-const Card = () => {
+
+
+const Card = (props) => {
+  const text = props.text;
+  const icono1 = props.icono1
+  const icono2 = props.icono2
+  const icono3 = props.icono3
+  
   return (
     <div className={styles.card}>
       <div className={styles.cardInner}>
-        <div className={styles.cardFront}>Desarrollo Web</div>
+        <div className={styles.cardFront}>{text}</div>
         <div className={styles.cardBack}>
-          <FaReact size={40} />
-          <FaJs size={40} />
-          <FaHtml5 size={40} />
-          <FaCss3Alt size={40} />
+          {icono1}
+          {icono2}
+          {icono3}
         </div>
       </div>
     </div>

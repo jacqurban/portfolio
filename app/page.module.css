@@ -1,29 +1,37 @@
-@import "./globals.css";
-
-
 .videoBackground {
-  position: fixed; /* Fijamos el video en su lugar para que no se desplace con el contenido */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* El video cubrirá toda la pantalla */
-  z-index: -1; /* Aseguramos que el video quede en el fondo */
+  object-fit: cover;
+  z-index: -1; 
+  background-color: #000;
 }
-
 .container {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 1200px;
-  margin: 0 auto; /* Centra el contenedor */
+  margin: 0 auto; 
   padding: 20px;
   padding-top: 60px;
   background-color: #000;
-  z-index: 1; /* Asegura que el contenido esté sobre el video */
+  z-index: 1; 
   position: relative;
   scroll-behavior: smooth;
   scroll-padding-top: 90px;
+}
+.globalBody {
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.globalHtml {
+  scroll-behavior: smooth;
+  background-color: #000;
+  scroll-padding-top: 90px;
+  
 }
 
 
