@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import styles from "./aboutMe.module.css";
 import Image from 'next/image';
 
@@ -27,7 +27,18 @@ const AboutMe = () => {
           className={styles.icono}
         >
           <FaGithub />
+          </a>
+        <a
+          href="mailto:jacquelineurban.ar@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.icono}
+        >
+          <FaEnvelope />
         </a>
+
+
+        
       </div>
     </section>  
 

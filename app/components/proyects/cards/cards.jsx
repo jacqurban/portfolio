@@ -6,7 +6,7 @@ const Card = ({ title, description, image, githubLink, videoLink }) => {
   return (
     <div className={styles.card}>
 
-      <Image src={image} alt={title} width={300} height={200} />
+      <Image src={image} alt={title} width={250} height={200} />
       <h3>{title}</h3>
       <p>{description}</p>
       <div className={styles.iconos}>

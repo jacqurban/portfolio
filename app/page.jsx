@@ -1,7 +1,7 @@
 
 import Menu from "./components/menu/page";
 import AboutMe from "./components/about-me/page";
-import Contact from "./components/contact/contact";
+import Skills from "./components/skills/skills";
 import Proyects from "./components/proyects/proyects";
 import styles from "./page.module.css";
 
@@ -26,7 +26,7 @@ export default function Home() {
 
       <Proyects />
      
-      <Contact />
+      <Skills />
 
 
       </div>

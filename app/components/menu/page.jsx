@@ -24,7 +24,7 @@ const Menu = () => {
        
         <a href="/#projects" className={styles.a}>Proyectos</a>
        
-        <a href="/#contact" className={styles.a}>Contacto</a>  
+        <a href="/#contact" className={styles.a}>Skills</a>  
       </div>
 
     

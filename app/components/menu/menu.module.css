@@ -21,12 +21,15 @@
 }
 
 .a {
-  color: #ff4da6; /* Color inicial rosa */
+  color: #fff; 
+  border: #fff;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
+  text-decoration-line: underline #fff;
+
   margin: 0 15px;
-  text-shadow: 0 0 5px #ff4da6, 0 0 10px #ff4da6, 0 0 20px #ff4da6;
+  text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 10px #fff;
   transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
@@ -57,4 +60,6 @@
   flex-direction: row;
   gap: 30px;
 }
+
+
 
