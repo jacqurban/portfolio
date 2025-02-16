@@ -13,6 +13,11 @@
   text-align: center;
   z-index: 1000;
 }
+@media (max-width: 768px) { /* Para pantallas de hasta 768px */
+  .menu {
+      background: rgba(255, 0, 0, 0.5); /* Fondo rojo con transparencia */
+  }
+}
 
 .nombre{
   color: white;
@@ -52,6 +57,12 @@
   margin-right: 20px;
 
 }
+@media (max-width: 844px){
+  .seccionDerecha{
+    display: none;
+    
+  }
+}
 
 .seccionIzquierda{
   align-items: center;
@@ -59,6 +70,15 @@
   margin-left: 20px;
   flex-direction: row;
   gap: 30px;
+}
+
+@media (max-width: 844px){
+  .seccionIzquierda{
+    display: flex;
+    margin-left: 60px;
+    
+    
+  }
 }
 
 

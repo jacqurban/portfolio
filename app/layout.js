@@ -1,4 +1,6 @@
-import styles from "./page.module.css";
+import styles from "./styles/page.module.css"
+import "./styles/global.css"; // ✅ Se importa sin asignarlo a una variable
+
 
 export const metadata = {
   title: "Jacqueline Urban Portfolio",

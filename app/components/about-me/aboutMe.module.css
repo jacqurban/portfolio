@@ -1,6 +1,4 @@
 .seccionAboutMe{
-    scroll-margin-top: 200px;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     scroll-margin-top: 200px;
@@ -16,15 +14,16 @@
     letter-spacing: 3px;
     text-align: center;
     color: #fff;
-    font-weight: 800
+    font-weight: 800;
     }
+
+
 
 .textPresentacion{
     margin: 20px;
     font-size: 30px;
     text-align: center;
     letter-spacing: 3px;
-    text-align: center;
     color: #fff; 
     padding: 20px;
     display: inline-block;
