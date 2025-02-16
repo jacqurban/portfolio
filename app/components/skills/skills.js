@@ -9,10 +9,10 @@ const Skills = () => {
   return (
     <div className={styles.seccionSkills}>  
       <a id="contact"></a> 
-
+      <div className={styles.titulo}>Skills</div>
       <div className={styles.textoSuperior}>
-        <span className={styles.titulo}>Skills</span>
-        <p>A medida que avanzo en mi carrera como desarrolladora, he adquirido experiencia en diversas tecnologías que me permiten enfrentar proyectos desafiantes. Estas son algunas de las herramientas y lenguajes con los que estoy trabajando actualmente:</p>
+        
+        A medida que avanzo en mi carrera como desarrolladora, he adquirido experiencia en diversas tecnologías que me permiten enfrentar proyectos desafiantes. Estas son algunas de las herramientas y lenguajes con los que estoy trabajando actualmente:
       </div> 
 
       <div className={styles.contenedorCards}>

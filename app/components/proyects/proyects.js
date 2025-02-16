@@ -3,14 +3,17 @@ import Card from "./cards/cards";
 import Image from 'next/image';
 
 const Proyects = () => {
-  return <>
+  return (
+    <>
     
     <div className={styles.seccionProyectos}> 
       <a id = "projects"></a> 
+      
+      <div className={styles.titulo}>Proyectos</div>
 
       <div className={styles.textoSuperior}>
-      <span className={styles.titulo}>Proyectos</span>
-      <p>He trabajado en el desarrollo y automatización de proyectos como un sistema para un refugio de animales, un scraper para análisis de precios inmobiliarios y una herramienta de notificación para la compra de entradas a recitales</p>        
+      
+      He trabajado en el desarrollo y automatización de proyectos como un sistema para un refugio de animales, un scraper para análisis de precios inmobiliarios y una herramienta de notificación para la compra de entradas a recitales      
       </div> 
 
       <div className={styles.contenedorCards}>
@@ -42,7 +45,8 @@ const Proyects = () => {
     
     </div>
 
-  </>;
+  </>
+  );
 };
 
 export default Proyects;

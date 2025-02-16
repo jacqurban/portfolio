@@ -15,7 +15,8 @@
 }
 @media (max-width: 768px) { /* Para pantallas de hasta 768px */
   .menu {
-      background: rgba(255, 0, 0, 0.5); /* Fondo rojo con transparencia */
+      background: #fff;
+     
   }
 }
 
@@ -24,7 +25,11 @@
   font-size: 20px;
   font-weight: bold;
 }
-
+@media (max-width: 768px){
+  .nombre{
+    color: #000;
+  }
+}
 .a {
   color: #fff; 
   border: #fff;
@@ -72,10 +77,12 @@
   gap: 30px;
 }
 
-@media (max-width: 844px){
+
+
+@media (max-width: 400px){
   .seccionIzquierda{
     display: flex;
-    margin-left: 60px;
+    margin-left: 0px;
     
     
   }

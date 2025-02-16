@@ -1,24 +1,11 @@
 .seccionProyectos{
+    display: flex;
     margin-top: 100px;
     scroll-margin-top: 200px;
     min-height: 100vh;
-    display: flex;
     flex-direction: column;
     align-items: center;
-
-    
-
 }
-
-.textoSuperior{
-    display: flex;
-    justify-content: center; /* Centra el texto dentro de la sección */
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-
-}
-
 
 .titulo {
     font-size: 50px;
@@ -27,25 +14,41 @@
     
 }
 
+@media (max-width: 400px) {
+    .titulo {  
+        font-size: 30px;
+    }
+}
 
-.textoSuperior p   {margin: 20px;
-font-size: 30px;
-text-align: center;
-letter-spacing: 3px;
-color: #fff; 
-padding: 20px;
-display: inline-block;
-/* Fondo negro con transparencia */
-background: rgba(0, 0, 0, 0.5);
 
-/* Sombra más notoria */
-    text-shadow: 
-0px 0px 5px rgba(0, 0, 0, 0.9), 
-0px 0px 15px rgba(0, 0, 0, 0.7), 
-0px 0px 25px rgba(0, 0, 0, 0.5);
-
+.textoSuperior{
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #fff; 
+    padding: 20px;
+    display: inline-block;
+    /* Fondo negro con transparencia */
+    background: rgba(0, 0, 0, 0.5);
+    
+    /* Sombra más notoria */
+        text-shadow: 
+    0px 0px 5px rgba(0, 0, 0, 0.9), 
+    0px 0px 15px rgba(0, 0, 0, 0.7), 
+    0px 0px 25px rgba(0, 0, 0, 0.5);
+    
 
 }
+@media (max-width: 400px) {
+    .textoSuperior {  
+        font-size: 22px;
+        padding: 0px;
+        letter-spacing: 0px;
+        
+    }
+}
+
 
 
 
