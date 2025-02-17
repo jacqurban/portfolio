@@ -19,7 +19,6 @@
      
   }
 }
-
 .nombre{
   color: white;
   font-size: 20px;
@@ -30,45 +29,56 @@
     color: #000;
   }
 }
-.a {
+.opciones {
   color: #fff; 
   border: #fff;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  text-decoration-line: underline #fff;
-
   margin: 0 15px;
-  text-shadow: 0 0 1px #fff, 0 0 10px #fff, 0 0 10px #fff;
-  transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+  position: relative; /* Necesario para las líneas */
+  padding: 10px 0; /* Espacio para las líneas */
+  transition: color 0.3s, background-color 0.3s, font-size 0.3s; /* Suaviza los cambios */
 }
-
-.a:hover {
-  color: #39FF14; /* Verde neón */
-  text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14; /* Efecto de resplandor */
+.opciones::before,
+.opciones::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #000000, #ffffff); /* Blanco y negro */
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.4s ease-out;
 }
-
+.opciones::before {
+  top: 0;
+  transform-origin: left;
+}
+.opciones::after {
+  bottom: 0;
+  transform-origin: right;
+}
+.opciones:hover::before,
+.opciones:hover::after {
+  transform: scaleX(1);
+}
 .foto{
   border-radius: 50%;
   max-width: 60px;
   max-height: 60px;
-
 }
-
 .seccionDerecha{
   display: flex;
   flex-direction: row;
   gap: 10px;
   margin-right: 20px;
-
 }
 @media (max-width: 844px){
   .seccionDerecha{
-    display: none;
-    
+    display: none;    
   }
 }
-
 .seccionIzquierda{
   align-items: center;
   display: flex;

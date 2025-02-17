@@ -11,7 +11,7 @@ const AboutMe = () => {
         <div className={styles.presentacion}>Hola Soy Jacqueline</div>
         
         <div className={styles.textPresentacion}>
-        Soy Técnica Universitaria en Tecnologías de Programación. Comencé mi camino en el mundo del testing, lo que me enseñó la importancia de los pequeños detalles y el trabajo en equipo. Me apasiona seguir aprendiendo y creciendo como desarrolladora. Mi objetivo es seguir explorando nuevas tecnologías y crear soluciones que realmente ayuden a las personas        
+        Técnica Universitaria en Tecnologías de Programación. Comencé mi camino en el mundo del testing, lo que me enseñó la importancia de los pequeños detalles y el trabajo en equipo. Me apasiona seguir aprendiendo y creciendo como desarrolladora. Mi objetivo es seguir explorando nuevas tecnologías y crear soluciones que realmente ayuden a las personas        
         </div>
 
         <div className={styles.redesSociales}>

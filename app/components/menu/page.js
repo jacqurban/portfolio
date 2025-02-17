@@ -20,11 +20,11 @@ const Menu = () => {
       </div>
 
       <div className={styles.seccionDerecha}>
-        <a href="/#aboutMe" className={styles.a}>Sobre mi</a>
+        <a href="/#aboutMe" className={styles.opciones}>Sobre mi</a>
        
-        <a href="/#projects" className={styles.a}>Proyectos</a>
+        <a href="/#projects" className={styles.opciones}>Proyectos</a>
        
-        <a href="/#contact" className={styles.a}>Skills</a>  
+        <a href="/#contact" className={styles.opciones}>Skills</a>  
       </div>
 
     

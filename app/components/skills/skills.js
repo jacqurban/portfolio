@@ -16,46 +16,103 @@ const Skills = () => {
       </div> 
 
       <div className={styles.contenedorCards}>
-        <Card 
-        text="Lenguajes de Programación"
-        icono1={ <FaPython /> }
-        icono2={ <FaJs /> }
-        
-      />
-
-      <Card 
-        text="Frameworks y Librerías"
-        icono1={ <FaReact /> }
-        icono2={ <SiNextdotjs /> }
-        icono3={ <SiPandas /> } 
-      />
-
-      <Card 
-        text="Bases de Datos"
-        icono1={ <SiMysql /> }
-        icono2={ <SiMongodb /> }
-      />
-
-      <Card 
-        text="Testing y QA"
-        icono1={ <SiCypress /> }
-        icono2={ <SiPostman /> }
-         
-      />
-
-      <Card 
-        text="Control de Versiones"
-        icono1={ <SiGit /> }
-      />
-
-      <Card 
-        text="Otras Herramientas"
-        icono1={ <SiFigma /> }
-        icono2={ <SiJira /> }
-        icono3={ <SiTrello /> }
-      />
 
       
+        <Card 
+          text="Lenguajes de Programación"
+          icono1={
+            <span className={styles.tooltip}>
+              <FaPython />
+              <span className={styles.tooltipText}>Python</span>
+            </span>
+          }
+          icono2={
+            <span className={styles.tooltip}>
+              <FaJs />
+              <span className={styles.tooltipText}>JavaScript</span>
+            </span>
+          }
+        />
+
+        <Card 
+          text="Frameworks y Librerías"
+          icono1={
+            <span className={styles.tooltip}>
+              <FaReact />
+              <span className={styles.tooltipText}>React</span>
+            </span>
+          }
+          icono2={
+            <span className={styles.tooltip}>
+              <SiNextdotjs />
+              <span className={styles.tooltipText}>Next.js</span>
+            </span>
+          }
+          icono3={
+            <span className={styles.tooltip}>
+              <SiPandas />
+              <span className={styles.tooltipText}>Pandas</span>
+            </span>
+          }
+        />
+
+        <Card 
+          text="Bases de Datos"
+          icono1={
+            <span className={styles.tooltip}>
+              <SiMysql />
+              <span className={styles.tooltipText}>MySQL</span>
+            </span>
+          }
+          icono2={
+            <span className={styles.tooltip}>
+              <SiMongodb />
+              <span className={styles.tooltipText}>MongoDB</span>
+            </span>
+          }
+        />
+
+        <Card 
+          text="Testing y QA"
+          icono1={
+            <span className={styles.tooltip}>
+              <SiCypress />
+              <span className={styles.tooltipText}>Cypress</span>
+            </span>
+          }
+          icono2={
+            <span className={styles.tooltip}>
+              <SiPostman />
+              <span className={styles.tooltipText}>Postman</span>
+            </span>
+          }
+        />
+
+        <Card 
+          text="Control de Versiones"
+          icono1={
+            <span className={styles.tooltip}>
+              <SiGit />
+              <span className={styles.tooltipText}>Git</span>
+            </span>
+          }
+        />
+
+        <Card 
+          text="Otras Herramientas"
+          icono1={
+            <span className={styles.tooltip}>
+              <SiFigma />
+              <span className={styles.tooltipText}>Figma</span>
+            </span>
+          }
+          icono2={
+            <span className={styles.tooltip}>
+              <SiJira />
+              <span className={styles.tooltipText}>Jira</span>
+            </span>
+          }         
+        />
       </div>
     </div>
   );
