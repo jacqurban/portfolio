@@ -45,6 +45,15 @@
     justify-content: center;
     max-width: 800px; /* Ajustá según necesites */
 }
+@media (max-width: 400px) {
+    .contenedorCards { 
+        display: flex; 
+        flex-direction: row;
+        gap: 20px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
 
 .tooltip {
     position: relative;

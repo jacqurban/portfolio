@@ -12,6 +12,14 @@
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 768px) {
+    .card {
+        width: 150px;
+        height: 200px;
+        margin-bottom: 20px;
+
+    }
+}
 
 .cardInner {
     position: relative;
@@ -37,6 +45,14 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    background: white;
+    border: 1px solid #e5e7eb;
+    color: black;
+}
+@media (max-width: 768px) {
+    .cardFront {
+        font-size: 20px;
+    }
 }
 .cardBack {
     position: absolute;
@@ -50,18 +66,15 @@
     font-size: 60px;
     font-weight: bold;
     text-align: center;
-}
-
-.cardFront {
-    background: white;
-    border: 1px solid #e5e7eb;
-    color: black;
-}
-
-.cardBack {
     background: #000;
     color: white;
     transform: rotateY(180deg);
     flex-direction: column;
     gap: 10px;
+}
+@media (max-width: 768px) {
+    .cardBack {
+        font-size: 30px;
+        gap: 15px;
+    }
 }
