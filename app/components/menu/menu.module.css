@@ -7,15 +7,20 @@
   justify-content: space-between;
   align-items: center;
   margin: 0px 0px;
-  padding: 10px; /*   - 10px → arriba/abajo - 20px → izquierda/derecha*/
+  padding: 10px;
   flex-direction: row;
-  background-color: #000; /* Fondo negro para resaltar el efecto */
+  background-color: #000;
   text-align: center;
   z-index: 1000;
 }
-@media (max-width: 768px) { /* Para pantallas de hasta 768px */
+@media (max-width: 768px) { 
   .menu {
-      background: #fff;
+      
+      flex-direction: column;
+      gap: 10px;
+      padding: 0%;
+      margin: 0%;
+
      
   }
 }
@@ -35,9 +40,9 @@
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
-  margin: 0 15px;
+  
   position: relative; /* Necesario para las líneas */
-  padding: 10px 0; /* Espacio para las líneas */
+  padding: 10px; /* Espacio para las líneas */
   transition: color 0.3s, background-color 0.3s, font-size 0.3s; /* Suaviza los cambios */
 }
 .opciones::before,
@@ -74,9 +79,17 @@
   gap: 10px;
   margin-right: 20px;
 }
-@media (max-width: 844px){
+@media (max-width: 768px){
   .seccionDerecha{
-    display: none;    
+    /*display: none;*/  
+    display: flex;
+    background-color: #000;  
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0 2px 0 #fff;
   }
 }
 .seccionIzquierda{
@@ -89,10 +102,14 @@
 
 
 
-@media (max-width: 400px){
+@media (max-width: 768px){
   .seccionIzquierda{
+    width: 100%;
     display: flex;
+    padding: 10px;
+    justify-content: center;
     margin-left: 0px;
+    background: #fff;
     
     
   }
