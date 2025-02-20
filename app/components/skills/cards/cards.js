@@ -11,7 +11,9 @@ const Card = (props) => {
   return (
     <div className={styles.card}>
       <div className={styles.cardInner}>
-        <div className={styles.cardFront}>{text}</div>
+        <div className={styles.cardFront}>
+          <span className={styles.texto}>{text}</span>
+          </div>
         <div className={styles.cardBack}>
           {icono1}
           {icono2}

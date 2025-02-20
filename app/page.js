@@ -1,5 +1,5 @@
 
-import Menu from "./components/menu/page.js";
+import Menu from "./components/menu/menu.js";
 import AboutMe from "./components/about-me/page.js";
 import Proyects from "./components/proyects/proyects.js";
 import Skills from "./components/skills/skills.js";

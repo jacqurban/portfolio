@@ -6,7 +6,10 @@ const Card = ({ title, description, image, githubLink, videoLink }) => {
   return (
     <div className={styles.card}>
 
-      <Image src={image} alt={title} width={250} height={200} />
+      <div className={styles.imageContainer}>
+        <Image src={image} alt={title} layout="intrinsic" width={250} height={200} />
+      </div>
+
       <h3>{title}</h3>
       <p>{description}</p>
       <div className={styles.iconos}>
@@ -19,6 +22,7 @@ const Card = ({ title, description, image, githubLink, videoLink }) => {
         </a>
 
       </div>
+      
     </div>
   );
 };
