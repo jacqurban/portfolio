@@ -18,21 +18,19 @@ const Proyects = () => {
 
       <div className={styles.contenedorCards}>
           <Card
-            title="Refugio Animal"
-            description="Refugio Animal es una plataforma para gestionar el registro y seguimiento de animales en adopción, incluyendo información sobre cuidadores, veterinarios y consultas."
-            image="/gato.jpg"
-            githubLink="https://github.com/tu-repo"
-            videoLink="https://youtube.com/tu-video"
-          />
-
-          <Card
             title="Scraping Bahía"
             description="Scraping Bahía es una herramienta de recopilación de datos automatizada que extrae información relevante sobre propiedades inmobiliarias de la región de Bahía Blanca."
             image="/MiniaturaScraping.png"
             githubLink="https://github.com/jacqurban/ScrapingBahia"
             videoLink="/ScrapingBahia.mp4"
           />  
-
+          <Card
+            title="Power Point Automático"
+            description="Power Point Automático es una herramienta que permite generar presentaciones de manera automática a partir de un archivo de texto, incluyendo imágenes y gráficos."
+            image="/miniatura_python_powerpoint.png"
+            githubLink=""
+            videoLink="/Crear_powerpoint_desde_python.mp4"
+          />
           <Card
             title="Notificación Ticket"
             description="Notificación de Tickets es un sistema que alerta a los usuarios cuando el botón para obtener un ticket está habilitado, optimizando el proceso de solicitud."

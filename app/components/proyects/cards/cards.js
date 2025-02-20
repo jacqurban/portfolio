@@ -13,14 +13,17 @@ const Card = ({ title, description, image, githubLink, videoLink }) => {
       <h3>{title}</h3>
       <p>{description}</p>
       <div className={styles.iconos}>
+        {githubLink && (
         <a href={githubLink} target="_blank" rel="noopener noreferrer">
           <FaGithub className={styles.icono} />
         </a>
+        )}
         
+        {videoLink && (
         <a href={videoLink} target="_blank" rel="noopener noreferrer">
           <FaVideo className={styles.icono} />
         </a>
-
+        )}
       </div>
       
     </div>
